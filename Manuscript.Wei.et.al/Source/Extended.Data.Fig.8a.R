@@ -1,6 +1,6 @@
 ################################# Extended Data Fig.8a
 ###R data adapted from Zhao, Q., Yu, C.D., Wang, R. et al. A multidimensional coding architecture of the vagal interoceptive system. Nature 603, 878–884 (2022). https://doi.org/10.1038/s41586-022-04515-5
-###All_VNG.rds file has been uploaded here: https://upenn.box.com/s/oyidlmnw6z92mt0xudfhp4rnc1uv6k4h
+###Please refer to Extended.Data.Fig.2c.R for All_VNG.rds file generation
 
 library(Seurat)
 
