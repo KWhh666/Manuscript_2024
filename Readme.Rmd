@@ -1,0 +1,56 @@
+---
+title: "Readme_Wei et al"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Vagal sensory neuron single cell analysis
+
+This repository contains the code used for the single-cell analysis of vagal sensory neurons from healthy and tumor-bearing mice. The data generated from these analyses will be published upon manuscript acceptance.
+
+Data and Folder Structure:
+    RData and Gene List: The relevant RData and gene list files are located in the "/Rds" and "/Raw_Txt" folders, respectively.
+    TCGA files: The relevant RData and .gct files are located in the "/TCGA" folder.
+    Code Files: All code files, annotated for each figure, can be found in the "/Source" folder.
+
+Requirements:
+
+Software Environment
+    Operating System: macOS (x86_64-apple-darwin20)
+    R Version: 4.4.2 for macOS
+
+R Packages
+    Seurat 4.3.0 
+    patchwork 1.1.3
+    tidyverse 2.0.0
+    pheatmap 1.0.12
+    dplyr 1.1.2
+    gridExtra 2.3
+    ggplot2 3.4.4
+    ggpubr 0.6.0
+    data.table 1.16.4
+    survival 3.7-0
+    survminer 0.5.0
+    TCGAbiolinks (https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
+    EDAseq (https://bioconductor.org/packages/release/bioc/html/EDASeq.html)
+
+
+Installation:
+    Download and unzip the repository on a local path. The installation process takes approximately 10 minutes.
+
+Running the Scripts in R:
+ 
+   1. Assuming "Manuscript.Wei.et.al" is the local path of the repository
+   2. Open each individual script files; replace the "Customized directory" to the local directory path before loading the script
+   3. The script execution takes around 10 minutes in total, and the runtime may vary based on computer configuration.
+
+
+Feel free to contact us at jinlabpenn@gmail.com for any assistance or inquiries.
+
+
+Test Environment:
+    Operating System: macOS (x86_64-apple-darwin20)
+    R Version: 4.4.2 for macOS
