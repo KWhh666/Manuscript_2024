@@ -1,0 +1,3 @@
+################################# ED.Fig.1j
+library(Nebulosa)
+plot_density(reduced_all, features = "Kcng1")
