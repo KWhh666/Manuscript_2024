@@ -1,3 +1,9 @@
-################################# ED.Fig.1g
-#Read in the reduced_data R data from Fig.1i
-FeaturePlot(reduced_all, features = "Phox2b", label = T)
+################################# ED.Fig.1h
+DimPlot(
+  reduced_all,
+  group.by = "group",
+  split.by = "group",
+  reduction = "umap",
+  ncol = 2,
+  label = T
+)

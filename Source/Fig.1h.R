@@ -1,4 +1,4 @@
-################################# ED. Fig.1k
+################################# Fig.1h
 p_clusters <- DimPlot(
   reduced_all, reduction = "umap", group.by = "seurat_clusters",
   label = TRUE, repel = TRUE, label.size = 3
